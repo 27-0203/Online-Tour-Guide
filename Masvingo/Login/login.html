@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<style>
+    @font-face{
+            font-family: My_font;
+            src: url(fonts/CrimsonPro-VariableFont_wght.ttff.ttf);
+        }
+</style>
+<body>
+    <div class="wrapper" id="signup">
+        <form>
+            <h2 style="color:whitesmoke; font-family: My_font;" >SignUp</h2>
+            <div class="input-field">
+                <input type="text" required>
+                <label>Enter Email</label>
+
+            </div>
+            <div class="input-field">
+                <input type="password" required>
+                <label>Enter Your Password</label>
+
+            </div>
+
+            
+
+                <div class="password-options">
+                    <label for="remember">
+                        <input type="checkbox" id="remember">
+                        <p>Remember me</p>
+                    </label>
+                    <a href="#">Forgot password</a>
+
+                </div>
+               <a href="./../Raw/index.html"> <button type="submit" id="signUpButton">Log In</button></a>
+                <div class="account-options">
+                    <a href="#"><p>Dont have an Account</p></a>
+                </div>
+
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
